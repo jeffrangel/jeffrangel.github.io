@@ -38,15 +38,15 @@ Now you will want to create a Trunking port on your switch that carry the VLAN I
 
 As an example, I am using a Zyxel GS1900-24 Switch. First you will want to create the VLAN ID.
 
-![]({{ site.url }}/attachments/SwitchVLANCreate-1024x703.png)
+![]({{ site.url }}/attachments/SwitchVLANCreate.png)
 
 Next create the Trunking port. This is usually the port coming from your router(pfSense) carrying the VLAN ID.
 
-![]({{ site.url }}/attachments/SwitchTrunking-923x1024.png)
+![]({{ site.url }}/attachments/SwitchTrunking.png)
 
 Last you will want to Tag the VLAN ports in which you want the ID carried to.
 
-![]({{ site.url }}/attachments/SwitchVLANTagging-768x978.png)
+![]({{ site.url }}/attachments/SwitchVLANTagging-804x1024.png)
 
 In just this situation, if you connect a device to one of the configured ports, the device should pickup DHCP for the VLAN created.
 
@@ -56,11 +56,11 @@ Next steps are likely what you want to use as most IOT devices are configured us
 
 Since the controller is plugged into one of the ports on the switch and the port is tagged to carry the VLAN ID, the VLAN IP should be carried as well. Next you will want to create the Wireless Network.
 
-![]({{ site.url }}/attachments/Wireless-NetworkUnifi-911x1024.png)
+![]({{ site.url }}/attachments/Wireless-NetworkUnifi.png)
 
 A side note, I’ve edit the User Group because nothing utilizing this wireless network needs full network speeds.
 
-![]({{ site.url }}/attachments/UserGroups-1024x752.png)
+![]({{ site.url }}/attachments/UserGroups.png)
 
 This should then allow you to configured your IOT devices to connect to this SSID which has limited network speeds on its own VLAN interface.
 
