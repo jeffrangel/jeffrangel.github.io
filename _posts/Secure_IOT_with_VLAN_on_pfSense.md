@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Secure IOT with VLAN on pfSense.md"
+title: "Secure IOT with VLAN on pfSense"
 date:	2019-12-04
 categories:
     - posts
