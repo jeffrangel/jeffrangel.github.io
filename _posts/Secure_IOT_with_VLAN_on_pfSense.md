@@ -8,7 +8,7 @@ tags:
     - informational
 ---
 
-There are plenty of articles and videos explaining how this is setup, however the issue I’ve come across is setting up VLAN tagging and trunking etc. So this is my attempt explain and outlining my steps.
+There are plenty of articles and videos explaining how this is setup, however the issue I’ve come across is setting up VLAN tagging and trunking etc. So this is my attempt explain and outlining my steps with pfSense, Managed switch and Unifi Network.
 
 First setting up the VLAN ID on pfSense is fairly straight forward. Go to `Interfaces > Assignments > VLANs > Add`. Here and in this situation I am using the parent interface LAN, choose a VLAN ID other then 1 and give a description. Save
 
@@ -65,14 +65,3 @@ A side note, I’ve edit the User Group because nothing utilizing this wireless 
 This should then allow you to configured your IOT devices to connect to this SSID which has limited network speeds on its own VLAN interface.
 
 Hopefully this helps someone and if there are any questions, please feel free to ask.
-
-
-
-
-
-
-
-
-
-
-
