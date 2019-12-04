@@ -4,4 +4,4 @@ Github Pages hosted Jekyll site for personal use
 
 ## Acknowledgments
 
-The theme is a tweaked version of https://github.com/gjuniioor/clyell
+The theme is a  forked version of https://github.com/bizarrechaos/bizarrechaos.github.io
