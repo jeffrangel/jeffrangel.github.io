@@ -12,7 +12,7 @@ mail:
 source_code:
     server: "github.com"
     nick: "jeffrangel"
-fingerprint_key: ""
+fingerprint_key: "2586 6065 2323 EDC5 B95E 8155 E4E7 2AF5 F127 257A"
 
 # Build settings
 markdown: kramdown
