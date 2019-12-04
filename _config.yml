@@ -1,6 +1,19 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+# Site settings
+title: "jeffrangel"
+bye_message: ""
+baseurl: "/"
+url: "https://jeffrangel.com"
+
+# Header settings
+nick: "jeffrangel"
+mail:
+    domain: "jeffrangel"
+    ext: "com"
+source_code:
+    server: "github.com"
+    nick: "jeffrangel"
+fingerprint_key: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
