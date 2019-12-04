@@ -5,8 +5,6 @@ permalink: /pubkey/
 <p>$ gpg <span class="reserved">--export -a</span> <span class="string">"{{ site.nick  }}"</span></p>
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: Keybase OpenPGP v2.0.53
-Comment: https://keybase.io/crypto
 
 xsFNBFd15RgBEACxSeMjL3eh6Y+fealh6DL0BEBj/mPXbVn0E25sZlwCLdpUAdFX
 eGZ8UC/nnGO3c6xwMsQZCzDq552NZ8pdlhLnqU3YDoim+hUaQey5Uy30Dn4zqnJm
